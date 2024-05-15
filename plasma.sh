@@ -10,6 +10,8 @@ git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si --noconfirm
 
 sudo pacman -S ntfs-3g os-prober --noconfirm
 
+cp ~/Sinergia/kwalletrc ~/.config/kwalletrc
+
 sudo systemctl enable sddm.service
 
 reboot
