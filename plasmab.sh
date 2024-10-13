@@ -6,7 +6,7 @@ sudo pacman -S kwalletmanager kdeplasma-addons spectacle dolphin konsole gwenvie
 
 git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si --noconfirm && cd ..
 
-yay -S appimagelauncher-bin --noconfirm
+yay -S appimagelauncher-bin stacer-bin --noconfirm
 sudo pacman -S ntfs-3g os-prober --noconfirm
 sudo sed -i.bak "63s/.*/GRUB_DISABLE_OS_PROBER="true"/" /etc/default/grub
 
