@@ -12,6 +12,8 @@ sudo sed -i.bak "63s/.*/GRUB_DISABLE_OS_PROBER="true"/" /etc/default/grub
 
 cp ~/Sinergia/kwalletrc ~/.config/kwalletrc
 
+rm -rf ~/Sinergia
+
 sudo systemctl enable sddm.service
 
 reboot
