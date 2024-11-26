@@ -31,4 +31,6 @@ EOF
 
 sudo systemctl enable sddm.service
 
+grub-mkconfig -o /boot/grub/grub.cfg
+
 reboot
