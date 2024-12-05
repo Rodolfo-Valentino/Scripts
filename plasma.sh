@@ -16,16 +16,17 @@ cat << "EOF" >> ~/.config/kwalletrc
 [Wallet]
 Close When Idle=false
 Close on Screensaver=false
+Default Wallet=kdewallet
 Enabled=false
 Idle Timeout=10
-Launch Manager=true
-Leave Manager Open=true
+Launch Manager=false
+Leave Manager Open=false
 Leave Open=true
 Prompt on Open=false
 Use One Wallet=true
 
 [org.freedesktop.secrets]
-apiEnabled=false
+apiEnabled=true
 
 EOF
 
